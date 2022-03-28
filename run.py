@@ -80,9 +80,9 @@ def banner():
 \x1b[0;97m|  _| (_| | (_|  __/ |___| | | (_| | (__|   <  ------>
 \x1b[0;97m|_|  \__,_|\___\___|\____|_|  \__,_|\___|_|\_\\ ------>
 \x1b[0;93m[\x1b[0;92m#\x1b[0;93m]\x1b[0;95m--------------------------------------------------\x1b[0;93m>
-\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mCode by   : \x1b[0;97mMoch Aang-XD \x1b[0;92m& \x1b[0;97mJeeck X Nano
-\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mGithub    : Github.com/AngCyber
-\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mFacebook  : Facebook.com/Aang.XD404
+\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mCode by   : \x1b[0;97mMoch XD \x1b[0;92m& \x1b[0;97mJeeck X Nano
+\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mGithub    : Github.com/
+\x1b[0;93m[\x1b[0;97m+\x1b[0;93m] \x1b[0;97mFacebook  : Facebook.co
 \x1b[0;93m[\x1b[0;92m#\x1b[0;93m]\x1b[0;95m--------------------------------------------------\x1b[0;93m>""")
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
@@ -460,7 +460,7 @@ class ngentod:
         try:
     	    ua = open('data/ua.txt', 'r').read()
         except IOError:
-        	ua = 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36'
+        	ua = 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
         global ok,cp,loop
         for pw in zona:
             pw = pw.lower()
@@ -544,7 +544,7 @@ def uas():
             	jalan("%s[•] Anda akan di arahkan ke browser ] "%(H));jeda(2)
             	os.system("am start https://www.google.com/search?q=My+user+agent>/dev/null");jeda(2);useragent()
             elif ua in("Default","DEFAULT","default"):
-                ua = 'Mozilla/5.0 (Linux; U; Android 9; LGL722DL Build/PKQ1.190302.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 OPR/60.0.2254.59405'
+                ua = 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
                 open("data/ua.txt","w").write(ua_)
                 print ("\n%s[✓] Menggunakan user agent bawaan"%(H));jeda(2);menu()
             open("data/ua.txt","w").write(ua);jeda(2)
@@ -590,7 +590,7 @@ def menu():
     print('[%s0%s] Keluar (%sHapus Token%s) '%(M,P,H,P));time.sleep(0.03)
     __Aang__Sayang__Laura__ = raw_input('\n%s[?] Pilih : %s'%(P,K));time.sleep(0.03)
     if __Aang__Sayang__Laura__ == '':
-        print("%s[•] Isi yang benar kentod"%(M));jeda(2);menu()
+        print("%s[•] Isi yang benar kontol"%(M));jeda(2);menu()
     elif __Aang__Sayang__Laura__ in['1','01']:
         publik(romz)
     elif __Aang__Sayang__Laura__ in['2','02']:
